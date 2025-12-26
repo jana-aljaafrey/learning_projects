@@ -149,3 +149,4 @@ where teacher_id = 2;
 select * from students;
 select * from teachers;
 
+
