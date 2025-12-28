@@ -62,16 +62,16 @@ subject_name varchar(250) not null
 insert into student (student_id, Fname, birth_date, gender, enrollment_date, email, study_level, pathway, cumulative_score ) values 
 (null, 'Sara', '2007-04-22', 'F', '2023-10-28',  'soso883@gmail.com', 5, 'science', 95.43),
 (null, 'Latifah', '2009-02-03', 'F', '2025-10-27',  'looloo@gmail.com', 1, 'humanities', 98.93),
-(null, 'Aban', '2009-06-14', 'M', '2025-10-29',  'AAA93933@gmail.com', 1, 'science', 93.26),
+(null, 'Aban', '2009-06-14', 'M', '2025-10-29',  'AAA93933@gmail.com', 2, 'science', 93.26),
 (null, 'suhaib', '2008-10-22', 'M', '2024-10-28',  null,  3, 'science', 99.12),
-(null, 'Lolo', '2008-11-15', 'F', '2024-10-28',  null, 3, 'science', 95.43),
-(null, 'Fajer', '2007-05-29', 'F', '2023-10-28',  'fofooo27@ooutlook.com', 5, 'humanities', 95.43),
+(null, 'Lolo', '2008-11-15', 'F', '2024-10-28',  null, 3, 'science', 100),
+(null, 'Fajer', '2007-05-29', 'F', '2023-10-28',  'fofooo27@ooutlook.com', 5, 'humanities', 60),
 (null, 'Maria', '2008-07-10', 'F', '2024-10-27',  'mariiiaaa@gmail.com', 3, 'humanities', 79.43),
 (null, 'Loai', '2009-08-05', 'M', '2025-10-27',  'loai.gamer.333@gmail.com', 5, 'science', 95.43),
-(null, 'Botol', '2007-12-09', 'F', '2023-10-29',  null, 5, 'humanities', 95.43),
+(null, 'Botol', '2007-12-09', 'F', '2023-10-29',  null, 5, 'humanities', 100),
 (null, 'Reem', '2009-09-18', 'F', '2025-10-28',  'rayomah738@gmail.com', 1, 'science', 94.43),
-(null, 'Sultan', '2009-01-27', 'M', '2025-10-30', null, 1, 'humanities', 95.43),
-(null, 'Maytham', '2009-02-25', 'M', '2025-10-28',  null, 1, 'science', 89.43),
+(null, 'Sultan', '2009-01-27', 'M', '2025-10-30', null, 1, 'humanities', 58.5),
+(null, 'Maytham', '2009-02-25', 'M', '2025-10-28',  null, 2, 'science', 89.43),
 (null, 'Jood', '2008-05-19', 'F', '2024-10-28',  'jood.jood@gmail.com', 3, 'science', 95.43),
 (null, 'Bader', '2007-04-16', 'M', '2023-10-28',  null, 5, 'science', 88.43),
 (null, 'Tamim', '2008-08-12', 'M', '2024-10-30',  'ta.m.001@gmail.com', 3, 'science', 95.43),
@@ -83,11 +83,11 @@ insert into student (student_id, Fname, birth_date, gender, enrollment_date, ema
 (null, 'Alanoud', '2007-07-28', 'F', '2023-10-27',  'alanoud.chan@gmail.com', 5, 'humanities', 97.43),
 (null, 'Amal', '2008-03-08', 'F', '2024-10-28',  null, 3, 'science', 95.43),
 (null, 'Deema', '2007-07-17', 'F', '2023-10-27',  'Deeeem0983a@gmail.com', 5, 'science', 99.43),
-(null, 'Hassan', '2008-05-03', 'M', '2024-10-28', null, 3, 'science', 85.43),
+(null, 'Hassan', '2008-05-03', 'M', '2024-10-28', null, 2, 'science', 85.43),
 (null, 'Farah', '2007-01-20', 'F', '2023-10-28',  'faruhah_2@gmail.com', 5, 'humanities', 95.43),
-(null, 'Sara', '2007-06-10', 'F', '2023-10-28',  null, 5, 'humanities', 95.43),
+(null, 'Sara', '2007-06-10', 'F', '2023-10-28',  null, 5, 'humanities', 55.43),
 (null, 'Jawad', '2007-02-21', 'M', '2023-10-27',  'jawad_Zzz@gmail.com', 5, 'science', 93.43),
-(null, 'Joury', '2008-08-13', 'F', '2024-10-28',  null, 3, 'humanities', 95.43),
+(null, 'Joury', '2008-08-13', 'F', '2024-10-28',  null, 3, 'humanities', 59.93),
 (null, 'Jumana', '2007-06-17', 'F', '2023-10-28', null, 5, 'science', 95.43),
 (null, 'Omar', '2009-01-07', 'M', '2025-10-28',  'OOmarrr.3@gmail.com', 5 , 'humanities', 82.62);
 
@@ -148,5 +148,6 @@ where teacher_id = 2;
 -- 9) ----------------------------------------- present tables after modifications -----------------------------------------
 select * from students;
 select * from teachers;
+
 
 
