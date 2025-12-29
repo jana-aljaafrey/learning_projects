@@ -1,7 +1,7 @@
 /*
 THis is end-of-course project for the SQL fundamentals course at Satr Academy, 
-As a continuation of the previous project, we will display the tables and create copies of them,
-and we will use aggregate functions along with some numeric, string, and date functions,
+As a continuation of the previous project, where i displayed the tables and created copies of them,
+and i used aggregate functions along with some numeric, string, and date functions,
 as well as updating the data.
 
 
@@ -99,3 +99,4 @@ where cumulative_score < 60;
  select * from students;
  select * from fail;
  select * from superior;
+
