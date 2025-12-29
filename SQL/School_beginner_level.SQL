@@ -1,6 +1,6 @@
 /*
 THis is end-of-course project for the SQL fundamentals course at Satr Academy, 
-where we simulate a small database for high school and work with data using CRUD operations.
+where i simulated a small database for high school and worked with data using CRUD operations.
 
 
 1) Create database
@@ -148,6 +148,7 @@ where teacher_id = 2;
 -- 9) ----------------------------------------- present tables after modifications -----------------------------------------
 select * from students;
 select * from teachers;
+
 
 
 
