@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="post" action="">
+        <label>*Name:
+            <input type="text" name="Name" minlength="3" maxlength="10" placeholder="sara ahmad">
+        </label>
+        <br>
+        <label>*Email:
+            <input type="email" name="email" placeholder="name@gmail.com">
+        </label>
+        <br>
+        <label>*Phone:
+            <input type="tel" name="phone" placeholder="+20385267373" minlength="11" maxlength="13">
+        </label>
+        <br>
+        <label>*Age:
+            <input type="number" name="age" placeholder="10 - 35" min="10" max="35">
+        </label>
+        <br>
+        <label>*Password:
+            <input type="password" name="pass" placeholder="********" minlength="4" maxlength="10">
+        </label>
+        <br>
+        <label>*Confirm Password:
+            <input type="password" name="Cpss" placeholder="********" minlength="4" maxlength="10">
+        </label>
+        <br>
+        <label>*Starting date:
+            <input type="date" name="startingDate">
+        </label>
+        <br>
+        <label>*Expected Salary:
+            <input type="range" min="10000" max="15000" step="1000" name="Salary">
+        </label>
+        <br>
+        <p><b>*Availble time per day:</b></p>
+        <br>
+        <label>*Start:
+            <input type="time" name="start">
+        </label>
+        <label>*end:
+            <input type="time" name="end">
+        </label>
+        <br>
+        <label>Favorite color:
+            <input type="color" name="Fcolor">
+        </label>
+        <br>
+        <label>Bio:
+            <textarea placeholder="Bio" rows="6" cols="30"></textarea>
+        </label>
+        <br>
+        <label>الوصف:
+            <textarea placeholder="الوصف" rows="6" cols="30" dir="rtl"></textarea>
+        </label>
+        <br>
+        <br>
+        <h5>Skills:</h5> <br>
+        <label>
+            <input type="checkbox" name="skills" value="html" checked> HTML
+        </label><br>
+        <label>
+            <input type="checkbox" name="skills" value="css"> CSS
+        </label><br>
+        <label>
+            <input type="checkbox" name="skills" value="python"> Python
+        </label><br>
+        <label>
+            <input type="checkbox" name="skills" value="java"> Java
+        </label><br>
+
+        <br>
+        <h5>Gender</h5>
+        <label>
+            <input type="radio" name="gender" value="f"> Fmale
+        </label>
+        <label><br>
+            <input type="radio" name="gender" value="m"> Male
+        </label><br>
+        <br>
+        <select name="flavor" multiple size="1">
+            <option disabled selected>Wich flavor have you make before?</option>
+            <optgroup label="Basics">
+                <option value="choclate">Choclate</option>
+                <option value="caramel">cramel</option>
+                <option value="vanilia">vanilia</option>
+                <option value="strubary">strubary</option>
+            </optgroup>
+            <optgroup label="Complex">
+                <option value="cheescake">cheescake</option>
+                <option value="mango">mango</option>
+            </optgroup>
+            <option value="None">None</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="Apply now">
+        <button type="submit">submit</button>
+    </form>
+</body>
+
+</html>
